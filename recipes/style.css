@@ -1,0 +1,98 @@
+/* styles.css */
+
+/* Set a background color for the whole page */
+body {
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Style the main heading */
+h1 {
+    color: #772626;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Style the recipe container */
+.recipe {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style images */
+.recipe-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+/* Style paragraphs */
+p {
+    margin-bottom: 20px;
+}
+
+/* Style the ingredients list */
+.ingredients {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.ingredients ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.ingredients h2 {
+    margin-top: 0;
+}
+
+/* Style the directions list */
+.directions {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.directions ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+.directions h3 {
+    margin-top: 0;
+}
+
+/* Style the back link */
+.back-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.back-link a {
+    text-decoration: none;
+    color: #0066cc;
+    font-weight: bold;
+}
+
+.back-link a:hover {
+    color: #004999;
+}
