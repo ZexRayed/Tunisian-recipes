@@ -1,0 +1,44 @@
+/* styles.css */
+
+/* Set a background color for the whole page */
+body {
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+/* Style the main heading */
+h1 {
+    color: #444;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Style the list of recipes */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+/* Style the links */
+a {
+    text-decoration: none;
+    color: #2a99cc;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #024185;
+}
